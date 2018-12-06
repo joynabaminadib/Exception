@@ -17,12 +17,12 @@ public class Exception1 {
                     int n1 = input.nextInt();
                     System.out.println("Give me second integer number?");
                     int n2 = input.nextInt();
-                    double sum = n1 / n2;
-                    System.out.println(sum);
+                    double result = n1 / n2;
+                    System.out.println(result);
                     done = true;
 
 
-                    if (sum < 1.0 || sum > 100.0) throw new ArithmeticException();
+                    if (result < 1.0 || result > 100.0) throw new ArithmeticException();
 
 
                 } catch(ArithmeticException ae ){
