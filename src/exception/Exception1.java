@@ -34,7 +34,7 @@ public class Exception1 {
 
             }
 
-            while (!done);           //close.close();
+            while (!done);          
 
 
 
